@@ -1,0 +1,85 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.slider{
+    position: relative;
+}
+.slider img{
+    width: 100%;
+}
+.next,.previus{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: #fff;
+    padding: 15px 5px;
+    border-radius: 4px;
+    font-size: 20px;
+    cursor: pointer;
+}
+.previus{
+    left: 10px;
+}
+.next{
+    right: 10px;
+}
+
+
+.slider-nav {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .arrow-prev {
+    margin-right: 45px;
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 9px;
+  }
+  
+  .arrow-next {
+    margin-left: 45px;
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 9px;
+  }
+  
+  .slider-dots {
+    list-style: none;
+    display: inline-block;
+    padding-left: 0;
+    margin-bottom: 0;
+    
+  }
+  
+  .slider-dots li {
+    color: #bbbcbc;
+    display: inline;
+    font-size: 30px;
+    margin-right: 5px;
+  }
+  
+  .slider-dots li.active-dot {
+    color: #363636;
+  }
+  
+  /* App links */
+  
+  .get-app {
+    list-style: none;
+    padding-bottom: 9px;
+    padding-left: 0px;
+    padding-top: 9px;
+  }
+  
+  .get-app li {
+    float: left;
+    margin-bottom: 5px;
+    margin-right: 5px;
+  }
+  
+  .get-app img {
+    height: 40px;
+  }
